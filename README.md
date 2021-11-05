@@ -8,12 +8,13 @@ As this is a docker image, you will need to set some env vars, failing to do so 
 You will need to configure the station ID
 
 Valid ENV vars are:
-station - the stationID you are interested in
-useMQTT - if you are wanting MQTT (TRUE / FALSE) - **has to be all caps**
-mqttBroker - MQTT Broker Address
-mqttUser - MQTT username - omit if not required
-mqttPass - MQTT password - omit if not required
-mqttBase - MQTT Base topic
+
+- station - the stationID you are interested in
+- useMQTT - if you are wanting MQTT (TRUE / FALSE) - **has to be all caps**
+- mqttBroker - MQTT Broker Address
+- mqttUser - MQTT username - omit if not required
+- mqttPass - MQTT password - omit if not required
+- mqttBase - MQTT Base topic
 
 ### Finding out the stationID to use
 To find the stationID that you are interested in, the envronment agency publish a json list of all the stations on the following link
