@@ -27,7 +27,6 @@ if station == "station":
     print("You will need to configure the station ID")
     quit()
 
-quit()
 
 ##################
 # Logging Stuff  #
